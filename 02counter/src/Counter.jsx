@@ -1,11 +1,11 @@
 import { useState } from "react"
 
-function App() {
+function Counter() {
 
   let [Counter, setCounter] = useState(0)
 
   const addValue = () => {
-    if(Counter==20){
+    if(Counter==10){
       return 0
     }
     else{
@@ -39,4 +39,4 @@ function App() {
   )
 }
 
-export default App
+export default Counter
