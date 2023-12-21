@@ -11,7 +11,7 @@ function App() {
     else{
       Counter = Counter + 1
       setCounter(Counter)
-      console.log("click", Counter)
+      console.log("ADD click", Counter)
     }
  }
 
@@ -23,7 +23,7 @@ function App() {
     else{
       Counter = Counter - 1
       setCounter(Counter)
-      console.log("click", Counter)
+      console.log("REMOVE click", Counter)
     }
  }
 
