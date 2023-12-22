@@ -5,14 +5,19 @@ function Counter() {
   let [Counter, setCounter] = useState(0)
 
   const addValue = () => {
-    if(Counter==10){
-      return 0
-    }
-    else{
-      Counter = Counter + 1
-      setCounter(Counter)
-      console.log("ADD click", Counter)
-    }
+    // if(Counter==10){
+    //   return 0
+    // }
+    // else{
+    //   Counter = Counter + 1
+    //   setCounter(Counter)
+    //   console.log("ADD click", Counter)
+    // }
+
+    setCounter(prevCounter=>prevCounter+1)
+    setCounter(prevCounter=>prevCounter+1)
+    setCounter(prevCounter=>prevCounter+1)
+    setCounter(prevCounter=>prevCounter+1)
  }
 
 
